@@ -6,7 +6,7 @@ const playlist = [
   {
     title: "Tarot",
     artist: "Feast",
-    src: "assets/music/tarot.mp3",
+    src: "portofolio/assets/music/tarot.mp3",
     cover: "assets/images/tarot.jpg"
   },
   {

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="pages.css" />
+
+  <title>Habibie | Music Player</title>
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="nav-link active">HOME</a>
+      <a href="#about" class="nav-link">ABOUT</a>
+      <a href="#contact" class="nav-link">CONTACT</a>
+    </nav>
+  </header>
+
+
+  <!-- HERO -->
+  <main id="app">
+
+    <div class="page active" data-page="home">
+
+    <section id="home" class="hero">
+
+      <div class="hero-image">
+        <img
+          src="assets/images/hero.jpg"
+          alt="HabzShifterID Hero" data-img="hero"
+        />
+
+        <h1 class="hero-title">
+          HABIBIE A. G. R.
+        </h1>
+      </div>
+
+    </section>
+
+
+    
+
+
+      <div class="tracklist">
+
+        <!-- PROJECTS -->
+        <article class="track-item">
+
+          <div class="track-number">
+            01
+          </div>
+
+          <button
+            class="track-play"
+            type="button"
+            aria-label="Open Projects"
+          >
+            ▶
+          </button>
+
+          <div class="track-cover">
+            <img class="track-image"
+              src="assets/images/projects.jpg"
+              alt="Projects" data-img="projects"
+            />
+          </div>
+
+          <div class="track-info">
+            <h2>Projects</h2>
+            <p>Habibie Abdul Ghani Ramadhan</p>
+          </div>
+
+          <div class="track-duration">
+            03:28
+          </div>
+
+          <div class="track-date">
+            12 Jan 2026
+          </div>
+
+          <button
+            class="track-more"
+            type="button"
+            aria-label="More options"
+          >
+            •••
+          </button>
+
+        </article>
+
+
+        <!-- SKILLS -->
+        <article class="track-item">
+
+          <div class="track-number">
+            02
+          </div>
+
+          <button
+            class="track-play"
+            type="button"
+            aria-label="Open Skills"
+          >
+            ▶
+          </button>
+
+          <div class="track-cover">
+            <img class="track-image"
+              src="assets/images/skills.jpg"
+              alt="Skills" data-img="skills"
+            />
+          </div>
+
+          <div class="track-info">
+            <h2>Skills</h2>
+            <p>Habibie Abdul Ghani Ramadhan</p>
+          </div>
+
+          <div class="track-duration">
+            02:58
+          </div>
+
+          <div class="track-date">
+            23 May 2026
+          </div>
+
+          <button
+            class="track-more"
+            type="button"
+            aria-label="More options"
+          >
+            •••
+          </button>
+
+        </article>
+
+
+        <!-- EXPERIENCE -->
+        <article class="track-item">
+
+          <div class="track-number">
+            03
+          </div>
+
+          <button
+            class="track-play"
+            type="button"
+            aria-label="Open Experience"
+          >
+            ▶
+          </button>
+
+          <div class="track-cover">
+            <img class="track-image"
+              src="assets/images/experience.jpg"
+              alt="Experience" data-img="experience"
+            />
+          </div>
+
+          <div class="track-info">
+            <h2>Experience</h2>
+            <p>Habibie Abdul Ghani Ramadhan</p>
+          </div>
+
+          <div class="track-duration">
+            03:12
+          </div>
+
+          <div class="track-date">
+            26 Jun 2026
+          </div>
+
+          <button
+            class="track-more"
+            type="button"
+            aria-label="More options"
+          >
+            •••
+          </button>
+
+        </article>
+
+      </div>
+
+
+    </div>
+   
+    <!-- /HOME -->
+
+
+    <!-- ABOUT -->
+    <section class="page" data-page="about">
+      <div class="page-wrap">
+        <header class="page-head">
+          <h1>About</h1>
+          <p>Habibie Abdul Ghani Ramadhan</p>
+        </header>
+        <div class="about-grid">
+          <div class="about-img"><img data-img="about" src="assets/images/about.jpg" alt="About" /></div>
+          <div class="about-text">
+            <p>Halo, aku Habibie Abdul Ghani Ramadhan, atau Habibie. Ini websiteku untuk project, skills, dan hal-hal yang aku suka.</p>
+            <p>Aku lahir di Malang, pada tanggal 05 September 2010. Aku adalah murid dari SMK Negeri 4 Malang yang sedang belajar hal-hal baru seperti pemrograman, desain, musik, dan lainnya. Aku tinggal di Kelurahan Karangduren Gg 08 RT 004 RW 002, Kecamatan Pakisaji, Kab. Malang. Aku juga aktif dalam berbagai kegiatan ekstrakurikuler dan organisasi.</p>
+            <p>Aku belajar web development secara mandiri dan materi sekolah, aku suka musik berbagai genre, seperti pop rock, alternative rock, pop punk, punk rock, indie, shoegaze, emo, folk, dan musik musik lainnya. aku juga senang mengubah ide jadi sesuatu yang nyata.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="page" data-page="experience">
+      <div class="page-wrap">
+        <header class="page-head">
+          <h1>Experience</h1>
+         
+        </header>
+        <div id="exp-list"></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="page" data-page="skills">
+      <div class="page-wrap">
+        <header class="page-head">
+          <h1>Skills</h1>
+       
+        </header>
+        <div id="skills-list"></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="page" data-page="projects">
+      <div class="page-wrap">
+        <header class="page-head">
+          <h1>Projects</h1>
+        
+        </header>
+        <div id="projects-list"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="page" data-page="contact">
+      <div class="page-wrap">
+        <header class="page-head">
+          <h1>Contact</h1>
+          
+        </header>
+        <ul class="contact-list">
+          <li><a href="mailto:habzshifterid@gmail.com">Email <span>habzshifterid@gmail.com</span></a></li>
+          <li><a href="https://instagram.com/hxvzerr_/" target="_blank" rel="noopener">Instagram <span>@hxvzerr_</span></a></li>
+          <li><a href="https://github.com/habzshifterid-svg" target="_blank" rel="noopener">GitHub <span>habzshifterid-svg</span></a></li>
+          <li><a href="https://wa.me/6289602623310" target="_blank" rel="noopener">WhatsApp <span>+62 896 0262 3310</span></a></li>
+          <li><a href="https://tiktok.com/@hxvzerrsaja" target="_blank" rel="noopener">TikTok <span>@hxvzerrsaja</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <span>© 2026 <strong>Habibie Abdul Ghani Ramadhan</strong>. All rights reserved.</span>
+    <span>Habibie — a personal space for thoughts, projects, and interests.</span>
+  </footer>
+
+
+  <!-- MUSIC PLAYER -->
+  <footer class="music-player">
+
+   <!-- SONG INFO -->
+<div class="player-song">
+
+  <img
+    class="player-cover"
+    id="player-cover"
+    src=""
+    alt=""
+  />
+
+  <div class="player-song-info">
+    <h3 id="song-title"></h3>
+    <p id="song-artist"></p>
+  </div>
+
+</div>
+
+
+    <!-- PLAYER CONTROLS -->
+    <div class="player-controls">
+
+      <button
+        class="shuffle-button"
+        type="button"
+        aria-label="Shuffle"
+      >
+        ⇄
+      </button>
+
+      <button
+        class="previous-button"
+        type="button"
+        aria-label="Previous Song"
+      >
+        ◀
+      </button>
+
+      <button
+        class="main-play-button"
+        type="button"
+        aria-label="Play Music"
+      >
+        ▶
+      </button>
+
+      <button
+        class="next-button"
+        type="button"
+        aria-label="Next Song"
+      >
+        ▶
+      </button>
+
+    </div>
+
+
+    <!-- PROGRESS -->
+    <div class="player-progress">
+
+      <input
+        type="range"
+        class="progress-bar"
+        min="0"
+        max="100"
+        value="35"
+        aria-label="Song progress"
+      />
+
+      <div class="player-time">
+        <span class="current-time">1:32</span>
+        <span>/</span>
+        <span class="total-time">3:48</span>
+      </div>
+
+    </div>
+
+
+    <!-- VOLUME -->
+    <div class="player-volume">
+
+      <button
+        type="button"
+        class="volume-button"
+        aria-label="Volume"
+      >
+        🔊
+      </button>
+
+      <input
+        type="range"
+        class="volume-slider"
+        min="0"
+        max="100"
+        value="70"
+        aria-label="Volume level"
+      />
+
+      <button
+        type="button"
+        class="playlist-button"
+        aria-label="Playlist"
+      >
+        ☷
+      </button>
+
+    </div>
+
+  </footer>
+<audio id="audio"></audio>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+  <script src="pages.js"></script>
+</body>
+</html>
